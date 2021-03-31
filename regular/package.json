@@ -1,0 +1,19 @@
+{
+  "name": "regular",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:custom": "vite build --mode custom",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.0.4",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.0.1"
+  }
+}
